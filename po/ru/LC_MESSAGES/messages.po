@@ -1,0 +1,264 @@
+# Russian translations for transmission_rutracker_seed.
+# Copyright (C) 2023 Dmitry Pisarev
+# This file is distributed under the same license as the transmission_rutracker_seed project.
+# Dmitry Pisarev <sorra7@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  transmission_rutracker_seed\n"
+"Report-Msgid-Bugs-To: sorra7@gmail.com\n"
+"POT-Creation-Date: 2024-01-19 09:25+0100\n"
+"PO-Revision-Date: 2023-11-20 21:34+0100\n"
+"Last-Translator: Dmitry Pisarev <sorra7@gmail.com>\n"
+"Language: ru\n"
+"Language-Team: ru <sorra7@gmail.com>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: transmission_rutracker_seed/__init__.py:15
+msgid "Configuration for transmission control not found. exiting."
+msgstr "Файл настроек не найден. Завершаем программу."
+
+#: transmission_rutracker_seed/__init__.py:21
+msgid ""
+"There is a problem with a connection to transmission program: \n"
+"{}"
+msgstr ""
+"Проблема с установкой соединения до торрент программы: \n"
+"{}"
+
+#: transmission_rutracker_seed/__init__.py:32
+msgid "Checking for a new version of {}"
+msgstr "Проверяем новую версию {}"
+
+#: transmission_rutracker_seed/__init__.py:37
+msgid "There is a new version of {}"
+msgstr "Найдена новая версия {}"
+
+#: transmission_rutracker_seed/__init__.py:42
+msgid "Cannot get a magnet URL or torrent file to update {}"
+msgstr "Не получилось найти магнет ссылку или торрент файл для обновления {}"
+
+#: transmission_rutracker_seed/__init__.py:45
+msgid "Cannot find a bt hash on {}"
+msgstr "Не получилось найти торрент идентификатор на {}"
+
+#: transmission_rutracker_seed/cli.py:10
+#, fuzzy
+msgid "Press Enter to close the window..."
+msgstr "Нажмите Ввод, чтобы закрыть это окно..."
+
+#: transmission_rutracker_seed/rutracker.py:26
+msgid "Loading {} failed with {}"
+msgstr "Загрузка {} завершилась ошибкой с кодом {}"
+
+#: transmission_rutracker_seed/rutracker.py:27
+msgid "Headers: {}"
+msgstr "Заголовок: {}"
+
+#: transmission_rutracker_seed/rutracker.py:33
+msgid "Will retry in {} seconds"
+msgstr "Попробуем снова через {} секунд"
+
+#: transmission_rutracker_seed/rutracker.py:58
+msgid "Loading cookie {} with value size {}"
+msgstr "Загружаем печеньку {} размером {}"
+
+#: transmission_rutracker_seed/rutracker.py:73
+msgid "username or password are not set. continue as anonymous"
+msgstr "имя пользователя или пароль не заданы. Продолжаем как гости"
+
+#: transmission_rutracker_seed/rutracker.py:76
+msgid "Submitting username and password to {}"
+msgstr "Посылаем имя пользователя и пароль на {}"
+
+#: transmission_rutracker_seed/rutracker.py:86
+#, fuzzy
+msgid "Got empty response from {}"
+msgstr "Получен пустой ответ от {}"
+
+#: transmission_rutracker_seed/rutracker.py:95
+msgid "It seems we has no success with log in. Cannot find the profile link"
+msgstr "Кажется, вход не был успешным. Не могу найти ссылку на профиль пользователя"
+
+#: transmission_rutracker_seed/rutracker.py:96
+msgid "Response headers: {}"
+msgstr "Заголовки в ответе: {}"
+
+#: transmission_rutracker_seed/rutracker.py:97
+msgid "Response body: {}"
+msgstr "Тело ответа: {}"
+
+#: transmission_rutracker_seed/rutracker.py:98
+msgid "username or password could be incorrect"
+msgstr "имя пользователя и пароль возможно не подходят"
+
+#: transmission_rutracker_seed/rutracker.py:100
+#, fuzzy
+msgid "We logged in"
+msgstr "Мы вошли"
+
+#: transmission_rutracker_seed/rutracker.py:131
+msgid "Loading {}"
+msgstr "Загружаем {}"
+
+#: transmission_rutracker_seed/rutracker.py:148
+msgid "Magnet URL not found on {}"
+msgstr "Ссылка на торрент на странице {} не найдена"
+
+#: transmission_rutracker_seed/rutracker.py:149
+msgid "Page content: {}"
+msgstr "Содержимое страницы: {}"
+
+#: transmission_rutracker_seed/rutracker.py:167
+msgid "It looks like a provided cookies are not valid anymore"
+msgstr "Кажется, печеньки испортились со временем"
+
+#: transmission_rutracker_seed/rutracker.py:168
+msgid "You need to perform interactive login procedure"
+msgstr "Вы должны выполнить интерактивную процедуру входа"
+
+#: transmission_rutracker_seed/transmission.py:26
+msgid "Transmission version should be 4.0.0 or newer"
+msgstr "Версия торрент клиента Transmission должна быть 4.0 или новее"
+
+#: transmission_rutracker_seed/transmission.py:49
+msgid "Adding torrent with payload type {}"
+msgstr "Добавляем торрент как данные {}"
+
+#: transmission_rutracker_seed/transmission.py:57
+msgid "Added new torrent \"{}\" with id {}"
+msgstr "Добавили новый торрент \"{}\" с идентификатором {}"
+
+#: transmission_rutracker_seed/transmission.py:65
+msgid "Could not find the pk key of {} (previous version)"
+msgstr "Не смогли найти pk атрибут предыдущей версии {}"
+
+#: transmission_rutracker_seed/transmission.py:66
+msgid "Could not set proper annotation url for {}"
+msgstr "Не смогли задать правильную ссылку для аннотации {}"
+
+#: transmission_rutracker_seed/transmission.py:67
+msgid "Torrent program won't be able to send seeding stats to a tracker"
+msgstr "Торрент клиент не сможет посылать статистику раздачи на трэкер"
+
+#: transmission_rutracker_seed/transmission.py:71
+msgid "Removing obsolete torrent {} for \"{}\""
+msgstr "Удаляем устаревший торрент {} для \"{}\""
+
+#: transmission_rutracker_seed/transmission.py:73 transmission_rutracker_seed/transmission.py:78
+msgid "Done"
+msgstr "Закончили"
+
+#: transmission_rutracker_seed/transmission.py:76
+msgid "Starting the torrent \"{}\""
+msgstr "Запускаем торрент \"{}\" на раздачу"
+
+#: transmission_rutracker_seed/config/__init__.py:22
+msgid "Unknown OS Platform"
+msgstr "Неизвестная операционная система"
+
+#: transmission_rutracker_seed/config/__init__.py:102
+msgid "To access configuration page, open http://127.0.0.1:{port}"
+msgstr "Для конфигурации приложения, откройте в браузере http://127.0.0.1:{port}"
+
+#: transmission_rutracker_seed/config/views/index.tpl:5 transmission_rutracker_seed/config/views/index.tpl:16
+msgid "Configuration"
+msgstr "Настройки"
+
+#: transmission_rutracker_seed/config/views/index.tpl:26
+msgid "protocol"
+msgstr "протокол"
+
+#: transmission_rutracker_seed/config/views/index.tpl:35
+msgid "username"
+msgstr "имя пользователя"
+
+#: transmission_rutracker_seed/config/views/index.tpl:41
+msgid "password"
+msgstr "пароль"
+
+#: transmission_rutracker_seed/config/views/index.tpl:47
+msgid "host"
+msgstr "сервер"
+
+#: transmission_rutracker_seed/config/views/index.tpl:53
+msgid "port"
+msgstr "порт"
+
+#: transmission_rutracker_seed/config/views/index.tpl:59
+msgid "path"
+msgstr "строка запроса"
+
+#: transmission_rutracker_seed/config/views/index.tpl:66 transmission_rutracker_seed/config/views/index.tpl:101
+#: transmission_rutracker_seed/config/views/index.tpl:135 transmission_rutracker_seed/config/views/index.tpl:167
+msgid "Save"
+msgstr "Сохранить"
+
+#: transmission_rutracker_seed/config/views/index.tpl:77
+msgid "Browser"
+msgstr "Интернет обозреватель"
+
+#: transmission_rutracker_seed/config/views/index.tpl:81
+msgid "User Agent"
+msgstr "Версия"
+
+#: transmission_rutracker_seed/config/views/index.tpl:84
+msgid "Used to cheat CloudFlare and rutracker.org"
+msgstr "Используется для мимикрии под обычный интернет обозреватель"
+
+#: transmission_rutracker_seed/config/views/index.tpl:87
+msgid "Refresh"
+msgstr "Обновить"
+
+#: transmission_rutracker_seed/config/views/index.tpl:91
+msgid "debug"
+msgstr "отладка"
+
+#: transmission_rutracker_seed/config/views/index.tpl:94
+msgid "false"
+msgstr "нет"
+
+#: transmission_rutracker_seed/config/views/index.tpl:95
+msgid "true"
+msgstr "да"
+
+#: transmission_rutracker_seed/config/views/index.tpl:112
+msgid "Authentication cookies"
+msgstr "Печеньки для входа"
+
+#: transmission_rutracker_seed/config/views/index.tpl:146
+msgid "Logging"
+msgstr "Сообщения"
+
+#: transmission_rutracker_seed/config/views/index.tpl:150
+msgid "level"
+msgstr "уровень"
+
+#: transmission_rutracker_seed/config/views/index.tpl:153 transmission_rutracker_seed/config/views/index.tpl:162
+msgid "DEBUG"
+msgstr "отладочный"
+
+#: transmission_rutracker_seed/config/views/index.tpl:154 transmission_rutracker_seed/config/views/index.tpl:162
+msgid "INFO"
+msgstr "информативный"
+
+#: transmission_rutracker_seed/config/views/index.tpl:155 transmission_rutracker_seed/config/views/index.tpl:162
+msgid "WARNING"
+msgstr "предупреждения"
+
+#: transmission_rutracker_seed/config/views/index.tpl:156 transmission_rutracker_seed/config/views/index.tpl:162
+msgid "ERROR"
+msgstr "ошибки"
+
+#: transmission_rutracker_seed/config/views/index.tpl:157 transmission_rutracker_seed/config/views/index.tpl:162
+msgid "CRITICAL"
+msgstr "критический"
+
+#: transmission_rutracker_seed/config/views/index.tpl:161
+msgid "Show messages this level and higher"
+msgstr "Показывать сообщения заданного уровня и важнее"
+

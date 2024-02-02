@@ -1,0 +1,7 @@
+*.spec
+dist
+build
+venv
+__pycache__
+*.mo
+.wine
