@@ -31,5 +31,5 @@ tomli_w==1.0.0
 tomlkit==0.12.3
 transmission-rpc==7.0.3
 typing_extensions==4.8.0
-urllib3==2.1.0
+urllib3==2.2.2
 webencodings==0.5.1
