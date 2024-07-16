@@ -2,7 +2,7 @@ altgraph==0.17.4
 astroid==3.0.2
 Babel==2.13.1
 bottle==0.12.25
-certifi==2023.7.22
+certifi==2024.07.04
 charset-normalizer==3.2.0
 coloredlogs==15.0.1
 dep-license==2.5.0
