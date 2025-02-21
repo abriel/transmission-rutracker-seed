@@ -27,11 +27,10 @@ pot:
 	PYTHONPATH=$$(pwd) pybabel extract -w 120 -o build/po.pot -F babel.cfg transmission_rutracker_seed
 
 po:	pot
-	pybabel update -d po -w 120 --init-missing -l ru -i build/po.pot
+	pybabel update -d transmission_rutracker_seed/locale -w 120 --init-missing -l ru -i build/po.pot
 
 mo:
 	find . -name \*.po -execdir msgfmt -f -o messages.mo messages.po \;
-	find po -type f -name "*.mo" -printf %P | xargs -I{} cp -v po/{} transmission_rutracker_seed/locale/{}
 
 win-deps:
 	WINEPREFIX=$$(realpath .wine) wine python -m pip install -r requirements.release.txt

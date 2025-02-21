@@ -8,6 +8,18 @@ So far, transmission_rutracker_seed supports [Transmission](https://transmission
 
 # Installation
 
+### Python native
+
+If you have Python installed on your system already, you can install lightweight wheel package from the
+[Releases](https://github.com/abriel/transmission-rutracker-seed/releases) page.
+
+Alternatively, you can install the package from the sources just using `pip`:
+```
+git checkout https://github.com/abriel/transmission-rutracker-seed.git
+cd transmission-rutracker-seed
+pip install .
+```
+
 ### Prebuilt binaries
 
 Binaries can be found on [Releases](https://github.com/abriel/transmission-rutracker-seed/releases) page.
