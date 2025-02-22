@@ -1,5 +1,5 @@
 altgraph==0.17.4
-bottle==0.12.25
+bottle==0.13.2
 certifi==2024.07.04
 charset-normalizer==3.3.2
 coloredlogs==15.0.1
