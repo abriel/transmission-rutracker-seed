@@ -8,7 +8,7 @@ coloredlogs==15.0.1
 dep-license==2.5.0
 dill==0.3.7
 gitdb==4.0.11
-GitPython==3.1.48
+GitPython==3.1.50
 html5lib==1.1
 humanfriendly==10.0
 idna==3.7
@@ -31,5 +31,5 @@ tomli_w==1.0.0
 tomlkit==0.12.3
 transmission-rpc==7.0.3
 typing_extensions==4.8.0
-urllib3==2.6.3
+urllib3==2.7.0
 webencodings==0.5.1
