@@ -1,6 +1,6 @@
 altgraph==0.17.4
 bottle==0.13.2
-certifi==2024.07.04
+certifi==2026.10.18
 charset-normalizer==3.3.2
 coloredlogs==15.0.1
 html5lib==1.1
